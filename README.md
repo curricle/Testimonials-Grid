@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-grid-9I5xikpDuV)
 - Live Site URL: [GitHub Pages](https://curricle.github.io/Testimonials-Grid/)
 
 ## My process
