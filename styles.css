@@ -30,15 +30,18 @@
     line-height: 110%;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
+    color: var(--grey-400);
+    font-weight: 500;
 }
-.text-presest-1 {
+h1, .text-presest-1 {
     font-size: 20px;
+    font-weight: 600;
     line-height: 120%;
 }
-.text-preset-3 {
+p, .text-preset-3 {
     line-height: 140%;
 }
-.text-preset-4 {
+.byline, .text-preset-4 {
     font-size: 11px;
 }
 body {
@@ -58,6 +61,19 @@ main {
     grid-template-rows: 1fr 1fr;
     grid-gap: var(--spacing-400);
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+    border-radius: 8px;
+    padding: var(--spacing-400);
+    background-color: var(--white);
+    box-shadow: 40px 60px 50px hsla(217, 19%, 35%, 24.7%);  
+}
+.student-info {
+    display: flex;
+    flex-direction: column;
+}
 #purple {
     grid-column: 1 / span 2;
 }
@@ -72,8 +88,10 @@ main {
     grid-row: 1 / span 2;
 }
 .attribution { 
+    margin-top: var(--spacing-500);
     font-size: 11px; 
     text-align: center; }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    font-size: 11px; 
+    color: var(--purple-500); 
 }
